@@ -1,0 +1,93 @@
+.header {
+  background-color: rgba(255, 255, 255,0);
+  height:50px ;
+ border: 2px solid red ;
+ position: fixed;
+ top: 0;
+
+}
+/*header ul {
+  overflow: auto;
+}*/
+.header li {
+  display: inline-block;
+  list-style: none;
+  
+}
+
+.header a{color: rgb(30, 30, 31);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+  text-align: left;
+
+}
+#logo{width: 15px;
+
+margin: 0;
+padding: 0;}
+
+.banner1{height: 450px;
+  text-align: center;
+  background-image: url(images/banner-2..jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.banner1 h1{margin-bottom: -15px;}
+.banner1 a{text-align: center;
+color: blue;text-decoration: none;
+/* padding-right: 10px;
+padding-top: -15px; */
+padding: 0px 20px 0 0;
+}
+.banner1 a:hover{text-decoration: underline}
+.banner2{height: 450px;
+  border: 2px solid red;
+  background-image: url(images/banner2.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.banner2, .banner3{margin-top: 4px;
+margin-bottom: 4px;
+border: 2px solid red;}
+.banner3{
+  background-image: url(images/banner-3-iwatch.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .banner3 h1, .banner3 p{color: white;
+  text-align: center;}
+  #m2{width: 25px;}
+  .banner4{
+    max-width: 1200px;
+    margin: auto;
+  }
+.banner4a{
+  background-image: url(images/ipadpro.jpg);
+  color: white;
+  background-size: cover;
+  width: 600px;
+  height: 450px;
+  transform: translate();
+  border: 1px solid red;
+}
+.banner4b{
+  background-image: url(images/visio.jpg);
+    color: black;
+    background-size: cover;
+    width: 600px;
+  height: 450px;
+  border: 1px solid red;
+  
+}
+.banner4a, .banner4b{display:inline-block;
+vertical-align: top;}
+.banner4a h1, .banner4a p{padding: 0;margin: 0;}
